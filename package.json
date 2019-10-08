@@ -1,0 +1,38 @@
+{
+	"name": "JS_COMPILER",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run development",
+		"development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch": "npm run development -- --watch",
+		"hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"prod": "npm run production",
+		"production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"cross-env": "^6.0.0",
+		"laravel-mix": "^5.0.0",
+		"react-perf-devtool": "^3.1.8",
+		"resolve-url-loader": "^3.1.0",
+		"sass": "^1.22.12",
+		"sass-loader": "^8.0.0",
+		"vue-template-compiler": "^2.6.10"
+	},
+	"dependencies": {
+		"@blueprintjs/core": "^3.18.1",
+		"@blueprintjs/datetime": "^3.13.0",
+		"cleave.js": "^1.5.3",
+		"lodash": "^4.17.15",
+		"moment": "^2.24.0",
+		"react": "^16.9.0",
+		"react-datepicker": "^2.9.6",
+		"react-dom": "^16.9.0",
+		"rsuite": "^4.0.1"
+	}
+}

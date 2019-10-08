@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  js-compiler:
+    build: .
+    image: 10.10.1.70:80/js-compiler
+    command: sh -c "yarn run watch"
+    volumes:
+      - ./src:/JS_COMPILER/src
+      - ./dist:/JS_COMPILER/dist
+    ports:
+      - 8081:8080
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
