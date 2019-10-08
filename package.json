@@ -27,12 +27,12 @@
 	"dependencies": {
 		"@blueprintjs/core": "^3.18.1",
 		"@blueprintjs/datetime": "^3.13.0",
-		"cleave.js": "^1.5.3",
 		"lodash": "^4.17.15",
 		"moment": "^2.24.0",
 		"react": "^16.9.0",
 		"react-datepicker": "^2.9.6",
 		"react-dom": "^16.9.0",
+		"rifm": "^0.9.1",
 		"rsuite": "^4.0.1"
 	}
 }
