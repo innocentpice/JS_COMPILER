@@ -28,7 +28,7 @@
 		"@blueprintjs/core": "^3.18.1",
 		"@blueprintjs/datetime": "^3.13.0",
 		"@buttercup/react-formatted-input": "^1.2.0",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.21",
 		"moment": "^2.24.0",
 		"numeral": "^2.0.6",
 		"react": "^16.9.0",
